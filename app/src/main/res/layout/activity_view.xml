@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_for_45"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/sp_for_15"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_for_10"
+            android:src="@mipmap/back_arrow_x" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/sp_for_18"
+            tools:text="自定义View" />
+
+    </RelativeLayout>
+
+
+    <com.malong.view.CanvasView
+        android:id="@+id/cv"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        app:xAxisName="付出"
+        app:yAxisName="收获"
+        app:textSize="@dimen/sp_for_18"
+        app:textColor="@color/setting_space_used"
+        app:title="马龙" />
+
+
+</RelativeLayout>

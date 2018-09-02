@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_for_45"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_for_10"
+            android:text="直播电视节目"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_for_24" />
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/re_live_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"/>
+
+    <TextView
+        android:id="@+id/tv_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_for_30"
+        android:gravity="center"
+        android:background="@drawable/bg_btn"
+        android:padding="@dimen/dp_for_30"
+        android:textSize="@dimen/sp_for_20"
+        android:text="进入WebView测试页面"/>
+    <!--tools:text=""这样写是运行后里面的文字不显示-->
+    <!--android:text=""运行后里面的文字显示-->
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_for_60"
+        android:gravity="center"
+        android:textSize="@dimen/sp_for_24"
+        android:background="@color/colorAccent"
+        android:text="进入测试页面"/>
+
+</LinearLayout>

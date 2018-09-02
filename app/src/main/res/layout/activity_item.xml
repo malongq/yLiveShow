@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_for_50"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp_for_10"
+        android:text="直播电视节目"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/sp_for_18" />
+
+
+</LinearLayout>

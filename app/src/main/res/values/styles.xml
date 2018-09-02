@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item><!--没有标题-->
+        <item name="windowActionBar">false</item><!--不显示ActionBar-->
+    </style>
+
+
+    <!--自定义图标style-->
+    <declare-styleable name="CanvasView">
+
+        <!--标题-->
+        <attr name="title" format="string"/>
+        <!--X轴坐标文字-->
+        <attr name="xAxisName" format="string"/>
+        <!--Y轴坐标文字-->
+        <attr name="yAxisName" format="string"/>
+        <!--字体大小-->
+        <attr name="textSize" format="dimension|integer"/>
+        <!--字体颜色-->
+        <attr name="textColor" format="color|integer"/>
+
+    </declare-styleable>
+
+</resources>

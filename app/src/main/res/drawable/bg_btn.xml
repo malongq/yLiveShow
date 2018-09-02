@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--按着的时候-->
+    <item android:state_pressed="true">
+        <!--类型-->
+        <shape android:shape="rectangle">
+            <!--颜色-->
+            <solid android:color="@color/fav_list_info" />
+            <!--边框颜色-->
+            <stroke android:width="0.1dp" android:color="@color/fav_list_info" />
+            <!--圆角-->
+            <corners android:radius="@dimen/dp_for_5" />
+            <!--<corners
+                android:bottomLeftRadius="@dimen/dp_for_5"
+                android:bottomRightRadius="@dimen/dp_for_5"
+                android:topLeftRadius="@dimen/dp_for_5"
+                android:topRightRadius="@dimen/dp_for_5" />-->
+        </shape>
+    </item>
+
+
+    <!--默认不按着的时候-->
+    <item android:state_enabled="true">
+        <!--类型-->
+        <shape android:shape="rectangle">
+            <!--颜色-->
+            <solid android:color="@color/green" />
+            <!--边框颜色-->
+            <stroke android:width="0.1dp" android:color="@color/green" />
+            <!--圆角-->
+            <corners android:radius="@dimen/dp_for_5" />
+            <!--<corners
+                android:bottomLeftRadius="@dimen/dp_for_5"
+                android:bottomRightRadius="@dimen/dp_for_5"
+                android:topLeftRadius="@dimen/dp_for_5"
+                android:topRightRadius="@dimen/dp_for_5" />-->
+        </shape>
+    </item>
+
+</selector>

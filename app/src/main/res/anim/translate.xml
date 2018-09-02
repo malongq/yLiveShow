@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="false"
+    android:zAdjustment="normal">
+
+    <!--都有duration的时候按最长的算-->
+
+    <translate
+        android:duration="100"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="100"
+        android:toYDelta="100" />
+
+    <rotate
+        android:duration="7000"
+        android:fromDegrees="0"
+        android:toDegrees="90" />
+
+</set>

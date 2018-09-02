@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--间距大小-->
+    <dimen name="dp_for_1">1dp</dimen>
+    <dimen name="dp_for_2">2dp</dimen>
+    <dimen name="dp_for_3">3dp</dimen>
+    <dimen name="dp_for_5">5dp</dimen>
+    <dimen name="dp_for_7">7dp</dimen>
+    <dimen name="dp_for_8">8dp</dimen>
+    <dimen name="dp_for_10">10dp</dimen>
+    <dimen name="dp_for_12">12dp</dimen>
+    <dimen name="dp_for_13">13dp</dimen>
+    <dimen name="dp_for_14">14dp</dimen>
+    <dimen name="dp_for_15">15dp</dimen>
+    <dimen name="dp_for_20">20dp</dimen>
+    <dimen name="dp_for_22">22dp</dimen>
+    <dimen name="dp_for_25">25dp</dimen>
+    <dimen name="dp_for_30">30dp</dimen>
+    <dimen name="dp_for_35">35dp</dimen>
+    <dimen name="dp_for_40">40dp</dimen>
+    <dimen name="dp_for_45">45dp</dimen>
+    <dimen name="dp_for_50">50dp</dimen>
+    <dimen name="dp_for_55">55dp</dimen>
+    <dimen name="dp_for_60">60dp</dimen>
+    <dimen name="dp_for_65">65dp</dimen>
+    <dimen name="dp_for_70">70dp</dimen>
+    <dimen name="dp_for_75">75dp</dimen>
+    <dimen name="dp_for_80">80dp</dimen>
+    <dimen name="dp_for_85">85dp</dimen>
+    <dimen name="dp_for_90">90dp</dimen>
+    <dimen name="dp_for_95">95dp</dimen>
+    <dimen name="dp_for_100">100dp</dimen>
+    
+    
+    <!--字体大小-->
+    <dimen name="sp_for_10">10sp</dimen>
+    <dimen name="sp_for_11">11sp</dimen>
+    <dimen name="sp_for_12">12sp</dimen>
+    <dimen name="sp_for_13">13sp</dimen>
+    <dimen name="sp_for_14">14sp</dimen>
+    <dimen name="sp_for_15">15sp</dimen>
+    <dimen name="sp_for_16">16sp</dimen>
+    <dimen name="sp_for_17">17sp</dimen>
+    <dimen name="sp_for_18">18sp</dimen>
+    <dimen name="sp_for_19">19sp</dimen>
+    <dimen name="sp_for_20">20sp</dimen>
+    <dimen name="sp_for_22">21sp</dimen>
+    <dimen name="sp_for_23">22sp</dimen>
+    <dimen name="sp_for_24">23sp</dimen>
+    <dimen name="sp_for_25">24sp</dimen>
+    <dimen name="sp_for_26">25sp</dimen>
+    <dimen name="sp_for_27">26sp</dimen>
+    <dimen name="sp_for_28">27sp</dimen>
+    <dimen name="sp_for_29">28sp</dimen>
+    <dimen name="sp_for_30">29sp</dimen>
+    <dimen name="sp_for_31">30sp</dimen>
+
+</resources>

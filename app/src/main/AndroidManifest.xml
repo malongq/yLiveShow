@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.malong.myliveshow">
+
+    <!--权限-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/run_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--直播页面-->
+        <activity android:name=".LiveActivity" />
+
+        <!--WEB页面-->
+        <activity
+            android:name=".webview.WebActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!--测试页面-->
+        <activity android:name=".http.TestActivity" />
+
+        <!--测试页面里的头条新闻页面-->
+        <activity android:name=".http.TopNewsActivity" />
+
+        <!--测试页面里的自定义View-->
+        <activity android:name="com.malong.view.CanvasActivity" />
+
+        <!--测试页面里的安卓8.0系统通知栏页面-->
+        <activity android:name=".AndroidOSystemActivity" />
+
+    </application>
+
+</manifest>

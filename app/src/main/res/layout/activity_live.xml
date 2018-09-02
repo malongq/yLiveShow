@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/root_view"
+    android:layout_height="match_parent">
+
+    <!--vitamio视图-->
+    <!--<io.vov.vitamio.widget.VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surface_view"/>-->
+
+    <RelativeLayout
+        android:id="@+id/rl_loading"
+        android:background="@color/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="@dimen/dp_for_60"
+            android:layout_height="@dimen/dp_for_60"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/video_loading"/>
+
+        <TextView
+            android:id="@+id/tv_loading"
+            android:textSize="@dimen/sp_for_18"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dp_for_2"
+            android:layout_below="@+id/pb_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载中..."/>
+
+    </RelativeLayout>
+
+    <!--顶部panel-->
+    <LinearLayout
+        android:id="@+id/ll_live_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_for_40"
+        android:orientation="horizontal"
+        android:background="@color/loading"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/back_arrow_x"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_for_10"
+            android:paddingRight="@dimen/dp_for_15"/>
+
+        <TextView
+            android:id="@+id/tv_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_for_20"
+            android:text="马龙卫视"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_for_15"
+            android:layout_marginLeft="@dimen/dp_for_15"
+            android:text="2018:10:10"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <!--底部panel-->
+    <LinearLayout
+        android:id="@+id/ll_live_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_for_40"
+        android:orientation="horizontal"
+        android:background="@color/loading"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/iv_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/lesson_list_filter_play"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_for_10"
+            android:paddingRight="@dimen/dp_for_15"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

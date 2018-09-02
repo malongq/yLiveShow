@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>马龙的WebView</title>
+    <style type="text/css">
+        body {
+            background: #cbcc1a;
+        }
+        .btn{
+            line-height: 100px;
+            margin: 10px;
+            padding: 10px;
+            background: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+<h2>马龙</h2>
+
+<div><span>请输入要传递的值</span><input type="text" id="input"></div>
+
+<div id="btn"><span class="btn">点我</span></div>
+
+<script type="text/javascript">
+
+    var btnEle = document.getElementById("btn");//点我按钮
+
+    var inputEle = document.getElementById("input");//输入框id
+
+    btnEle.addEventListener("click",function () {
+        var str = inputEle.value;//读取输入框中的值
+        if (window.malong){
+            malong.setValue(str);
+        }else {
+            alert("你点错了，笨蛋！");
+        }
+    })
+
+    var change = function (str) {
+        inputEle.value = str;
+    }
+
+</script>
+
+</body>
+</html>
