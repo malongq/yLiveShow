@@ -9,11 +9,12 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
 import com.malong.bean.LoginBean;
 import com.malong.myliveshow.AndroidOSystemActivity;
 import com.malong.myliveshow.R;
+import com.malong.piaoliuping.BrowserActivity;
+import com.malong.piaoliuping.MainActivity1;
+import com.malong.piaoliuping.WebActivity;
 import com.malong.view.CanvasActivity;
 
 import okhttp3.OkHttpClient;
@@ -31,6 +32,7 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_test;
     private Button btn_test2;
     private Button btn_test3;
+    private Button btn_test4;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -54,6 +56,15 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TestActivity.this, AndroidOSystemActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_test4 = findViewById(R.id.btn_test4);
+        btn_test4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TestActivity.this, WebActivity.class);
                 startActivity(intent);
             }
         });

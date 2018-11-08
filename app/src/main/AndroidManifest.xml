@@ -5,8 +5,13 @@
     <!--权限-->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +19,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.malong.piaoliuping.WebActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,6 +46,13 @@
 
         <!--测试页面里的安卓8.0系统通知栏页面-->
         <activity android:name=".AndroidOSystemActivity" />
+
+        <!--测试页面里的漂流瓶页面-->
+        <activity android:name="com.malong.piaoliuping.MainActivity1" />
+        <activity android:name="com.malong.piaoliuping.BrowserActivity" />
+        <activity android:name="com.malong.piaoliuping.FilechooserActivity" />
+        <activity android:name="com.malong.piaoliuping.FullScreenActivity" />
+        <activity android:name=".MainActivity" />
 
     </application>
 

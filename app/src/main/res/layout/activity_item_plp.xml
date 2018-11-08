@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_for_50"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/dp_for_50"
+        android:layout_height="@dimen/dp_for_50"
+        android:src="@mipmap/run_icon" />
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_marginLeft="@dimen/dp_for_5"
+        android:layout_marginTop="@dimen/dp_for_5"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/sp_for_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:text="宜昌" />
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_marginLeft="@dimen/dp_for_5"
+        android:textSize="@dimen/sp_for_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_top"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:text="你的感受" />
+
+    <TextView
+        android:id="@+id/tv_top_right"
+        android:layout_marginTop="@dimen/dp_for_7"
+        android:textSize="@dimen/sp_for_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_for_15"
+        android:layout_toRightOf="@+id/tv_top"
+        android:gravity="right"
+        android:text="20:02" />
+
+    <TextView
+        android:id="@+id/tv_bottom_right"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/cycle_gray"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp_for_5"
+        android:paddingRight="@dimen/dp_for_5"
+        android:layout_marginRight="@dimen/dp_for_15"
+        android:textSize="@dimen/sp_for_12"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_for_20"
+        android:layout_below="@+id/tv_top"
+        android:textColor="@color/main_drawer_account_text"
+        android:text="1" />
+
+
+</RelativeLayout>

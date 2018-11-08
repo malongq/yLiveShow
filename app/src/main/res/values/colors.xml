@@ -40,7 +40,7 @@
     <color name="main_drawer_text_unselected">#818285</color>
     <color name="main_drawer_text_selected">#FF5A60</color>
     <color name="main_drawer_account_bg">#88FFFFFF</color>
-    <color name="main_drawer_account_text">#B8B8B8</color>
+    <color name="main_drawer_account_text">#268d51</color>
     <color name="main_drawer_account_divider">#D2D2D2</color>
 
     <color name="setting_space_used">#DD3492</color>

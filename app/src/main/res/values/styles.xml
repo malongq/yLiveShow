@@ -11,6 +11,7 @@
     </style>
 
 
+
     <!--自定义图标style-->
     <declare-styleable name="CanvasView">
 
