@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">爱智康大屏</string>
+    <string name="app_name">马龙--直播、WebView</string>
+    <string name="app_name1">WebView</string>
 
 
     <string name="action_settings">设置</string>
