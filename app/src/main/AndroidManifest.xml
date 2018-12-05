@@ -19,7 +19,7 @@
         android:label="@string/app_name1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.malong.piaoliuping.WebActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,7 +52,7 @@
         <activity android:name="com.malong.piaoliuping.BrowserActivity" />
         <activity android:name="com.malong.piaoliuping.FilechooserActivity" />
         <activity android:name="com.malong.piaoliuping.FullScreenActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.malong.piaoliuping.WebActivity" />
 
     </application>
 

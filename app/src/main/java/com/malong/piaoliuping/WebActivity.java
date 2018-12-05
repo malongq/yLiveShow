@@ -30,7 +30,8 @@ public class WebActivity extends Activity {
      */
     private X5WebView2 mWebView;
     private ViewGroup mViewParent;
-    private static final String mHomeUrl = "http://192.144.132.76:3000/d/lz-jO3Jik/izhikang-system?refresh=30s&orgId=1";
+//    private static final String mHomeUrl = "http://192.144.132.76:3000/d/lz-jO3Jik/izhikang-system?refresh=30s&orgId=1";
+    private static final String mHomeUrl = "https://online.izhikang.com/open-h5/#/courseWinterEntrance";
     private static final String TAG = "SdkDemo";
     private boolean mNeedTestPage = false;
     private ValueCallback<Uri> uploadFile;
